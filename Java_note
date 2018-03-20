@@ -1,0 +1,27 @@
+_Dependency Association
+
+public class Driver {
+	
+	public void drive(Vehicle raceCar){
+
+		raceCar.accelerate();
+	}
+}
+
+---> Vehicle is dependency object
+
+-----------Composition Asociation ---------------------
+public clas Vehicle {
+	
+	Engine myEngine; // Vehicle owns an Engine
+
+}
+-----------Affregation Association------------------ (Tập hợp)
+pubic class HistoryCourse {
+	Student[] resigeredStudents ;  Tap hop student
+}
+
+-------------Keep thing simple !-----------
+-------------Don't repeat your seft-----------
+
+--------------Open for extension and close for modification------------------
