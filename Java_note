@@ -25,3 +25,30 @@ pubic class HistoryCourse {
 -------------Don't repeat your seft-----------
 
 --------------Open for extension and close for modification------------------
+
+
+tool: object aid
+-----------Dangers of Coupling--------
+Hight Level modules should not depend on Lowlevel modules
+SHould depend on Abstraction !
+
+--------- In a nutshell------------
+Only depend on things that don't change often
+--------Define an Abstract Parent Class
++ GeneralManufacturing Process
++ Should encapsulate the manufacturing flow in the correct order
++ Keep related things together
++ Depend on Abstract classes and interfaces because they change less often than  concrete classes
+--------Subtypes must be substitutable for their basetypes
+
+ex: 
+Teacher :
+ + teach()
+ + makeAnnouncements()
+ + takeAttendence()
+ + collectPaperWork()
+ + conductHallwatDuties()
+MathTeacher : + teach()
+ScienceTeacher:  + teach()
+
+-----------Interface segregation principle--------------
